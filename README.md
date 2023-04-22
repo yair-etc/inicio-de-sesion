@@ -24,28 +24,17 @@ describe el ingreso de de usuario y contraseña a 3 intentos con bucle while
       if( inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada ) {
         alert("Bienvenido al sistema " + inicioDeSesionIngresado);
         intentoActual==intentosMax;     
-      }else{
+             }else{
           if (intentoActual == 3) {
             alert("¡llegaste al maximo de intetntos! D: ");
             imprimir("no pueleee :c")
             break;
-          } else {
+            } else {
         alert("inicio de sesión inválido. Favor intente de nuevo");
         
-    }
-
-}
-
-
-    // var opcion = prompt("Ingresa una opción (o escribe 'salir' para salir del programa)");
-//   if (opcion == "salir") {
-    // break;
-//   }
- 
+          }
+      } 
   }
-//   alert("La opción ingresada fue: " + opcion);
-
-// alert("Saliendo del programa...");
 
 
   
