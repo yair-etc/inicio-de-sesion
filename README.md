@@ -25,8 +25,10 @@ describe el ingreso de de usuario y contraseña a 3 intentos con bucle while
         alert("Bienvenido al sistema " + inicioDeSesionIngresado);
         intentoActual==intentosMax;     
       }else{
-          if (intentoActual==3) {
+          if (intentoActual == 3) {
             alert("¡llegaste al maximo de intetntos! D: ");
+            imprimir("no pueleee :c")
+            break;
           } else {
         alert("inicio de sesión inválido. Favor intente de nuevo");
         
